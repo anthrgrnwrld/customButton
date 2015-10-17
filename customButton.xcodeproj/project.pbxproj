@@ -14,6 +14,9 @@
 		367C0E2F1BD0A77900B62C8F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 367C0E2D1BD0A77900B62C8F /* LaunchScreen.storyboard */; };
 		367C0E3A1BD0A77900B62C8F /* customButtonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367C0E391BD0A77900B62C8F /* customButtonTests.swift */; };
 		367C0E451BD0A77900B62C8F /* customButtonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367C0E441BD0A77900B62C8F /* customButtonUITests.swift */; };
+		367C0E541BD0A7C800B62C8F /* buttonDefault.png in Resources */ = {isa = PBXBuildFile; fileRef = 367C0E521BD0A7C800B62C8F /* buttonDefault.png */; settings = {ASSET_TAGS = (); }; };
+		367C0E551BD0A7C800B62C8F /* buttonSelected.png in Resources */ = {isa = PBXBuildFile; fileRef = 367C0E531BD0A7C800B62C8F /* buttonSelected.png */; settings = {ASSET_TAGS = (); }; };
+		367C0E581BD1BC3E00B62C8F /* customButton1.gif in Resources */ = {isa = PBXBuildFile; fileRef = 367C0E571BD1BC3E00B62C8F /* customButton1.gif */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		367C0E401BD0A77900B62C8F /* customButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = customButtonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		367C0E441BD0A77900B62C8F /* customButtonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customButtonUITests.swift; sourceTree = "<group>"; };
 		367C0E461BD0A77900B62C8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		367C0E521BD0A7C800B62C8F /* buttonDefault.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buttonDefault.png; sourceTree = "<group>"; };
+		367C0E531BD0A7C800B62C8F /* buttonSelected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buttonSelected.png; sourceTree = "<group>"; };
+		367C0E571BD1BC3E00B62C8F /* customButton1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = customButton1.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +109,7 @@
 				367C0E2B1BD0A77900B62C8F /* Assets.xcassets */,
 				367C0E2D1BD0A77900B62C8F /* LaunchScreen.storyboard */,
 				367C0E301BD0A77900B62C8F /* Info.plist */,
+				367C0E561BD0A7D700B62C8F /* image */,
 			);
 			path = customButton;
 			sourceTree = "<group>";
@@ -123,6 +130,16 @@
 				367C0E461BD0A77900B62C8F /* Info.plist */,
 			);
 			path = customButtonUITests;
+			sourceTree = "<group>";
+		};
+		367C0E561BD0A7D700B62C8F /* image */ = {
+			isa = PBXGroup;
+			children = (
+				367C0E571BD1BC3E00B62C8F /* customButton1.gif */,
+				367C0E521BD0A7C800B62C8F /* buttonDefault.png */,
+				367C0E531BD0A7C800B62C8F /* buttonSelected.png */,
+			);
+			name = image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,8 +246,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				367C0E2F1BD0A77900B62C8F /* LaunchScreen.storyboard in Resources */,
+				367C0E551BD0A7C800B62C8F /* buttonSelected.png in Resources */,
+				367C0E541BD0A7C800B62C8F /* buttonDefault.png in Resources */,
 				367C0E2C1BD0A77900B62C8F /* Assets.xcassets in Resources */,
 				367C0E2A1BD0A77900B62C8F /* Main.storyboard in Resources */,
+				367C0E581BD1BC3E00B62C8F /* customButton1.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -481,6 +501,7 @@
 				367C0E4B1BD0A77900B62C8F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		367C0E4C1BD0A77900B62C8F /* Build configuration list for PBXNativeTarget "customButtonTests" */ = {
 			isa = XCConfigurationList;
@@ -489,6 +510,7 @@
 				367C0E4E1BD0A77900B62C8F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		367C0E4F1BD0A77900B62C8F /* Build configuration list for PBXNativeTarget "customButtonUITests" */ = {
 			isa = XCConfigurationList;
@@ -497,6 +519,7 @@
 				367C0E511BD0A77900B62C8F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
